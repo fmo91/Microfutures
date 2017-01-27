@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Microfutures_Example' do
+  pod 'Microfutures', :path => '../'
+
+  target 'Microfutures_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
