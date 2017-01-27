@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32CF4234F27A83EAE7396C9822F09F18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		5369BF86141293A6CC5AE2B93CEFB84A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		65E461B96C7FB1E355B0851F7CBCCCAF /* Pods-Microfutures_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D100A7EBFBCE83C1E1512A9F5948A3 /* Pods-Microfutures_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A9215FFED75BAB65920EB99F9281F41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		6B2367C0127DC9A112B4CAB05EA636D3 /* Pods-Microfutures_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE264F9DE0A00081915F659A1EAEF956 /* Pods-Microfutures_Example-dummy.m */; };
+		6F6E40F9F4904BCE819648E6205E3DFD /* Microfutures-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFE24A4A096EDF8DBAFA0506D969F92 /* Microfutures-dummy.m */; };
+		BC8FB7CC771BABFD54F168B9B20E5508 /* Microfutures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB4B97D49FBF9551ACBAEB5BEFE7495 /* Microfutures.swift */; };
+		BF011BCFA7539CA954AD410674F12293 /* Pods-Microfutures_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D481DB66C86A719EE3D7F35D6C20D3F3 /* Pods-Microfutures_Tests-dummy.m */; };
+		F8DAB8BB2DDCC6EB0364E46B00F73E47 /* Microfutures-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B28A717F1EEECF93B3B8A71EA44593EF /* Microfutures-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF43CE5D40FE643FCDA8AF936AA784F0 /* Pods-Microfutures_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D31AB9639E7406057490B2FB7B79ED72 /* Pods-Microfutures_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC68674A7BAD093A8569CEA569DCDA06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 899382291472AFBE15F4BCC117F9CBD5;
+			remoteInfo = Microfutures;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00A15BFEAE93403EA152A609E6BE872E /* Pods-Microfutures_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Microfutures_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		01945D8834A96F21FD972F22C60EDFD4 /* Pods_Microfutures_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Microfutures_Example.framework; path = "Pods-Microfutures_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A4F239BA6043439CC748274F216A62B /* Pods-Microfutures_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Microfutures_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		22DEDB94D8024D74BFCB8392B1B34CBA /* Pods-Microfutures_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Microfutures_Example-frameworks.sh"; sourceTree = "<group>"; };
+		296A10BC8D485222EF90D1CDD1EEB2F6 /* Pods-Microfutures_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Microfutures_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2DB4B97D49FBF9551ACBAEB5BEFE7495 /* Microfutures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Microfutures.swift; sourceTree = "<group>"; };
+		3B3F962E877B7B26409CDBE2563761F0 /* Pods-Microfutures_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Microfutures_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		422FA5A71CD5277184803DC3C3B3EE94 /* Pods-Microfutures_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Microfutures_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		48973900E9E85CF9B5D0394051AF2731 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49B5396698690BF9E3A8F672FF19F619 /* Pods_Microfutures_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Microfutures_Tests.framework; path = "Pods-Microfutures_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		574920B46D89213FB35F11C0C5206832 /* Microfutures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Microfutures.framework; path = Microfutures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5959C0F5B2F36A04884458B13B85242D /* Pods-Microfutures_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Microfutures_Example.modulemap"; sourceTree = "<group>"; };
+		6E8D2E3FD51A5288435CFA9D5A19CDD6 /* Pods-Microfutures_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Microfutures_Tests-resources.sh"; sourceTree = "<group>"; };
+		73FA4C40A2B7504D5129A170B2C8CB4D /* Pods-Microfutures_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Microfutures_Example-resources.sh"; sourceTree = "<group>"; };
+		768CC6B6DDD0A34E1CE87D2BFED8548B /* Microfutures.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Microfutures.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B28A717F1EEECF93B3B8A71EA44593EF /* Microfutures-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Microfutures-umbrella.h"; sourceTree = "<group>"; };
+		BE264F9DE0A00081915F659A1EAEF956 /* Pods-Microfutures_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Microfutures_Example-dummy.m"; sourceTree = "<group>"; };
+		BED72837F1FB70694BBBE594F5EFA183 /* Pods-Microfutures_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Microfutures_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BFFE24A4A096EDF8DBAFA0506D969F92 /* Microfutures-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Microfutures-dummy.m"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D31AB9639E7406057490B2FB7B79ED72 /* Pods-Microfutures_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Microfutures_Example-umbrella.h"; sourceTree = "<group>"; };
+		D481DB66C86A719EE3D7F35D6C20D3F3 /* Pods-Microfutures_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Microfutures_Tests-dummy.m"; sourceTree = "<group>"; };
+		D5F472BEAA564E27D5FCFC1F74826A79 /* Pods-Microfutures_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Microfutures_Tests.modulemap"; sourceTree = "<group>"; };
+		D8C0A35614AFC685D0F55CBF4E279F80 /* Microfutures.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Microfutures.modulemap; sourceTree = "<group>"; };
+		DAA04CCA14467B944931437A3EC36754 /* Pods-Microfutures_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Microfutures_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2413CAD1ABBA05F7C5BBBD26FC6B865 /* Pods-Microfutures_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Microfutures_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E652C21B7FEF2E3A6033B3E088250D3F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7D100A7EBFBCE83C1E1512A9F5948A3 /* Pods-Microfutures_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Microfutures_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F3CC7264EF998AD2CD3D7B27A2D0075F /* Pods-Microfutures_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Microfutures_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FA3C84716DD45910F501904B43FBA1AC /* Microfutures-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Microfutures-prefix.pch"; sourceTree = "<group>"; };
+		FDE18357EEC8A837C2C7762EEFBF6682 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		352CED38904A66BA2BC62F7FE17EA58B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A9215FFED75BAB65920EB99F9281F41 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		397650F652994FB027D56AFEE3293641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5369BF86141293A6CC5AE2B93CEFB84A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED59E869A7287ED2E716338A7FD7C54E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32CF4234F27A83EAE7396C9822F09F18 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F4547147D012E8636ABFF352BAB83F2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				48973900E9E85CF9B5D0394051AF2731 /* Info.plist */,
+				D8C0A35614AFC685D0F55CBF4E279F80 /* Microfutures.modulemap */,
+				768CC6B6DDD0A34E1CE87D2BFED8548B /* Microfutures.xcconfig */,
+				BFFE24A4A096EDF8DBAFA0506D969F92 /* Microfutures-dummy.m */,
+				FA3C84716DD45910F501904B43FBA1AC /* Microfutures-prefix.pch */,
+				B28A717F1EEECF93B3B8A71EA44593EF /* Microfutures-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Microfutures";
+			sourceTree = "<group>";
+		};
+		20C14C48BD3EF8BFCB5470DAF3393747 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2DB4B97D49FBF9551ACBAEB5BEFE7495 /* Microfutures.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		50F7CDD0AAF2D1DDCB3C71E04A43F6CE /* Pods-Microfutures_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FDE18357EEC8A837C2C7762EEFBF6682 /* Info.plist */,
+				5959C0F5B2F36A04884458B13B85242D /* Pods-Microfutures_Example.modulemap */,
+				E2413CAD1ABBA05F7C5BBBD26FC6B865 /* Pods-Microfutures_Example-acknowledgements.markdown */,
+				0A4F239BA6043439CC748274F216A62B /* Pods-Microfutures_Example-acknowledgements.plist */,
+				BE264F9DE0A00081915F659A1EAEF956 /* Pods-Microfutures_Example-dummy.m */,
+				22DEDB94D8024D74BFCB8392B1B34CBA /* Pods-Microfutures_Example-frameworks.sh */,
+				73FA4C40A2B7504D5129A170B2C8CB4D /* Pods-Microfutures_Example-resources.sh */,
+				D31AB9639E7406057490B2FB7B79ED72 /* Pods-Microfutures_Example-umbrella.h */,
+				422FA5A71CD5277184803DC3C3B3EE94 /* Pods-Microfutures_Example.debug.xcconfig */,
+				BED72837F1FB70694BBBE594F5EFA183 /* Pods-Microfutures_Example.release.xcconfig */,
+			);
+			name = "Pods-Microfutures_Example";
+			path = "Target Support Files/Pods-Microfutures_Example";
+			sourceTree = "<group>";
+		};
+		526367BC725BE7E8AF3BFDD3EC65A4C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				574920B46D89213FB35F11C0C5206832 /* Microfutures.framework */,
+				01945D8834A96F21FD972F22C60EDFD4 /* Pods_Microfutures_Example.framework */,
+				49B5396698690BF9E3A8F672FF19F619 /* Pods_Microfutures_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8619CD455F05F0EC1F9FA12214AE0842 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				526367BC725BE7E8AF3BFDD3EC65A4C5 /* Products */,
+				A5C60E427D2F7B93946A0D59C761FCE7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8619CD455F05F0EC1F9FA12214AE0842 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E59C8B01B4CDA847FDF9F989032EC97A /* Microfutures */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A5C60E427D2F7B93946A0D59C761FCE7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				50F7CDD0AAF2D1DDCB3C71E04A43F6CE /* Pods-Microfutures_Example */,
+				EAC1BD60C65EAAC181183D4783CFE37D /* Pods-Microfutures_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E59C8B01B4CDA847FDF9F989032EC97A /* Microfutures */ = {
+			isa = PBXGroup;
+			children = (
+				FAC0BA8719F84D9C9A9BB9011037DD29 /* Microfutures */,
+				0F4547147D012E8636ABFF352BAB83F2 /* Support Files */,
+			);
+			name = Microfutures;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EAC1BD60C65EAAC181183D4783CFE37D /* Pods-Microfutures_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E652C21B7FEF2E3A6033B3E088250D3F /* Info.plist */,
+				D5F472BEAA564E27D5FCFC1F74826A79 /* Pods-Microfutures_Tests.modulemap */,
+				00A15BFEAE93403EA152A609E6BE872E /* Pods-Microfutures_Tests-acknowledgements.markdown */,
+				296A10BC8D485222EF90D1CDD1EEB2F6 /* Pods-Microfutures_Tests-acknowledgements.plist */,
+				D481DB66C86A719EE3D7F35D6C20D3F3 /* Pods-Microfutures_Tests-dummy.m */,
+				3B3F962E877B7B26409CDBE2563761F0 /* Pods-Microfutures_Tests-frameworks.sh */,
+				6E8D2E3FD51A5288435CFA9D5A19CDD6 /* Pods-Microfutures_Tests-resources.sh */,
+				E7D100A7EBFBCE83C1E1512A9F5948A3 /* Pods-Microfutures_Tests-umbrella.h */,
+				DAA04CCA14467B944931437A3EC36754 /* Pods-Microfutures_Tests.debug.xcconfig */,
+				F3CC7264EF998AD2CD3D7B27A2D0075F /* Pods-Microfutures_Tests.release.xcconfig */,
+			);
+			name = "Pods-Microfutures_Tests";
+			path = "Target Support Files/Pods-Microfutures_Tests";
+			sourceTree = "<group>";
+		};
+		FAC0BA8719F84D9C9A9BB9011037DD29 /* Microfutures */ = {
+			isa = PBXGroup;
+			children = (
+				20C14C48BD3EF8BFCB5470DAF3393747 /* Classes */,
+			);
+			name = Microfutures;
+			path = Microfutures;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		391219FD79ABCE098FB311D7EB137BED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF43CE5D40FE643FCDA8AF936AA784F0 /* Pods-Microfutures_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE9004EB74CAFCE619CEF07437F1E08D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E461B96C7FB1E355B0851F7CBCCCAF /* Pods-Microfutures_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12A7EE15D471D52C5D20F3EE2E8EC12 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8DAB8BB2DDCC6EB0364E46B00F73E47 /* Microfutures-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		899382291472AFBE15F4BCC117F9CBD5 /* Microfutures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A29175725934F0EEE35945E76251090D /* Build configuration list for PBXNativeTarget "Microfutures" */;
+			buildPhases = (
+				CC211C8CD9962DC6408D8D90B7D9CABC /* Sources */,
+				397650F652994FB027D56AFEE3293641 /* Frameworks */,
+				D12A7EE15D471D52C5D20F3EE2E8EC12 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Microfutures;
+			productName = Microfutures;
+			productReference = 574920B46D89213FB35F11C0C5206832 /* Microfutures.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9675642D654B9197F423DB333E1A5800 /* Pods-Microfutures_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 424E49AD5941D6F40600C43FF41128F4 /* Build configuration list for PBXNativeTarget "Pods-Microfutures_Tests" */;
+			buildPhases = (
+				4182F2BBF40B7FB466DF99C4B0D35BDE /* Sources */,
+				ED59E869A7287ED2E716338A7FD7C54E /* Frameworks */,
+				AE9004EB74CAFCE619CEF07437F1E08D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Microfutures_Tests";
+			productName = "Pods-Microfutures_Tests";
+			productReference = 49B5396698690BF9E3A8F672FF19F619 /* Pods_Microfutures_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD06B1F7010EF0579379675EF161DBA9 /* Pods-Microfutures_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C5765F2686E4FA1750933629660920E /* Build configuration list for PBXNativeTarget "Pods-Microfutures_Example" */;
+			buildPhases = (
+				86F7F6C687E3A9893073FCBCA7058C33 /* Sources */,
+				352CED38904A66BA2BC62F7FE17EA58B /* Frameworks */,
+				391219FD79ABCE098FB311D7EB137BED /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D618F0CA40FD60C0371B937C7A86287A /* PBXTargetDependency */,
+			);
+			name = "Pods-Microfutures_Example";
+			productName = "Pods-Microfutures_Example";
+			productReference = 01945D8834A96F21FD972F22C60EDFD4 /* Pods_Microfutures_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 526367BC725BE7E8AF3BFDD3EC65A4C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				899382291472AFBE15F4BCC117F9CBD5 /* Microfutures */,
+				BD06B1F7010EF0579379675EF161DBA9 /* Pods-Microfutures_Example */,
+				9675642D654B9197F423DB333E1A5800 /* Pods-Microfutures_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4182F2BBF40B7FB466DF99C4B0D35BDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF011BCFA7539CA954AD410674F12293 /* Pods-Microfutures_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F7F6C687E3A9893073FCBCA7058C33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B2367C0127DC9A112B4CAB05EA636D3 /* Pods-Microfutures_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC211C8CD9962DC6408D8D90B7D9CABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F6E40F9F4904BCE819648E6205E3DFD /* Microfutures-dummy.m in Sources */,
+				BC8FB7CC771BABFD54F168B9B20E5508 /* Microfutures.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D618F0CA40FD60C0371B937C7A86287A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Microfutures;
+			target = 899382291472AFBE15F4BCC117F9CBD5 /* Microfutures */;
+			targetProxy = BC68674A7BAD093A8569CEA569DCDA06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		251FE104114108315E6E1355FD74A400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAA04CCA14467B944931437A3EC36754 /* Pods-Microfutures_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Microfutures_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Microfutures_Tests/Pods-Microfutures_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Microfutures_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		263E826257558C01F01E266383ED6F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 768CC6B6DDD0A34E1CE87D2BFED8548B /* Microfutures.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Microfutures/Microfutures-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Microfutures/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Microfutures/Microfutures.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Microfutures;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6983664C6AD04F8D839FA20079BE2550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BED72837F1FB70694BBBE594F5EFA183 /* Pods-Microfutures_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Microfutures_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Microfutures_Example/Pods-Microfutures_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Microfutures_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D3B7E966FBB314C8DA0AD5E68091AF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 422FA5A71CD5277184803DC3C3B3EE94 /* Pods-Microfutures_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Microfutures_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Microfutures_Example/Pods-Microfutures_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Microfutures_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		846E4404AE58D8DD2F002F3ACAB99FAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 768CC6B6DDD0A34E1CE87D2BFED8548B /* Microfutures.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Microfutures/Microfutures-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Microfutures/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Microfutures/Microfutures.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Microfutures;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		927324D660CA45089012B1B9AD7E40C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3CC7264EF998AD2CD3D7B27A2D0075F /* Pods-Microfutures_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Microfutures_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Microfutures_Tests/Pods-Microfutures_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Microfutures_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C5765F2686E4FA1750933629660920E /* Build configuration list for PBXNativeTarget "Pods-Microfutures_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D3B7E966FBB314C8DA0AD5E68091AF6 /* Debug */,
+				6983664C6AD04F8D839FA20079BE2550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		424E49AD5941D6F40600C43FF41128F4 /* Build configuration list for PBXNativeTarget "Pods-Microfutures_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				251FE104114108315E6E1355FD74A400 /* Debug */,
+				927324D660CA45089012B1B9AD7E40C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A29175725934F0EEE35945E76251090D /* Build configuration list for PBXNativeTarget "Microfutures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846E4404AE58D8DD2F002F3ACAB99FAC /* Debug */,
+				263E826257558C01F01E266383ED6F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Microfutures {
+  umbrella header "Microfutures-umbrella.h"
+
+  export *
+  module * { export * }
+}

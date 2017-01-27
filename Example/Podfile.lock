@@ -1,0 +1,16 @@
+PODS:
+  - Microfutures (0.1.0)
+
+DEPENDENCIES:
+  - Microfutures (from `../`)
+
+EXTERNAL SOURCES:
+  Microfutures:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Microfutures: c5004356c31cbe9f263107b732839401a435585e
+
+PODFILE CHECKSUM: 2b8ad75e1d622ecaa8691c8b4b820dd9ecbafc75
+
+COCOAPODS: 1.1.1

@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		0923EB911F625E0B0725DDEE /* Pods-Microfutures_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Microfutures_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Microfutures_Tests/Pods-Microfutures_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		11F83EE69FD7AA764101AB77 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		1D621FFFC58EAFF876402C36 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		11F83EE69FD7AA764101AB77 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1D621FFFC58EAFF876402C36 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3A37CA04682C558B00D50218 /* Pods-Microfutures_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Microfutures_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Microfutures_Example/Pods-Microfutures_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		528DB1EA287524F8C7D4CDF8 /* Pods-Microfutures_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Microfutures_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Microfutures_Example/Pods-Microfutures_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5428FD8E7164FF6F97C0FBDE /* Pods_Microfutures_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Microfutures_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,7 +44,7 @@
 		607FACE51AFB9204008FA782 /* Microfutures_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Microfutures_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8B9EA8BD24398F597674A7F4 /* Microfutures.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Microfutures.podspec; path = ../Microfutures.podspec; sourceTree = "<group>"; };
+		8B9EA8BD24398F597674A7F4 /* Microfutures.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Microfutures.podspec; path = ../Microfutures.podspec; sourceTree = "<group>"; };
 		F132D864F00FB5D49B4040D8 /* Pods_Microfutures_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Microfutures_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD1FD2FF21C3357DF11EBD77 /* Pods-Microfutures_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Microfutures_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Microfutures_Tests/Pods-Microfutures_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -215,9 +215,11 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -494,6 +496,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -507,6 +510,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -526,6 +530,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -541,6 +546,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
