@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/Microfutures.svg?style=flat)](http://cocoapods.org/pods/Microfutures)
 
 ## Introduction
-Microfutures is a very microlibrary (60 LOCs) that implements a simple Futures/Promises flow. It also has a similar public interface to [RxSwift](https://github.com/ReactiveX/RxSwift). 
+Microfutures is a very small library (60 LOCs) that implements a simple Futures/Promises flow. It also has a similar public interface to [RxSwift](https://github.com/ReactiveX/RxSwift). 
 
 ## What is a future?
 A future is a representation of a value that hasn't been already generated. The best use case of Futures is to simplify an asynchronous flow. Instead of writing nested callbacks, you can chain futures, turning that awful callback hell into a beautiful functional pipeline.

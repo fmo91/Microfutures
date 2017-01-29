@@ -15,10 +15,8 @@ public enum Result<T> {
 
 public struct Future<T> {
     public typealias ResultType = Result<T>
-    public typealias Completion = (ResultType) -> ()
-    public typealias AsyncOperation = (Completion) -> ()
     
-    private let operation: AsyncOperation
+    private let operation: ( @escaping (ResultType) -> ()) -> ()
     
     public init(result: ResultType) {
         self.init(operation: { completion in
@@ -34,11 +32,11 @@ public struct Future<T> {
         self.init(result: .failure(error))
     }
     
-    public init(operation: @escaping AsyncOperation) {
+    public init(operation: @escaping ( @escaping (ResultType) -> ()) -> ()) {
         self.operation = operation
     }
     
-    fileprivate func then(_ completion: Completion) {
+    fileprivate func then(_ completion: @escaping (ResultType) -> ()) {
         self.operation() { result in
             completion(result)
         }
