@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Microfutures'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Lightweight implementation of Futures that shares a similar subscription interface with RxSwift.'
 
 # This description is used to generate tags and improve search results.
