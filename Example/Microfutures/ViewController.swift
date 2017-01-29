@@ -19,11 +19,16 @@ struct Post {
 }
 
 class ViewController: UIViewController {
+    func f(completion: () -> Void) {
+        completion()
+    }
     
     func getUser() -> Future<User> {
         return Future { completion in
-            let user = User(name: "fmo91")
-            completion(.success(user))
+            self.f {
+                let user = User(name: "fmo91")
+                completion(.success(user))
+            }
         }
     }
     
@@ -44,8 +49,9 @@ class ViewController: UIViewController {
         }
     }
     
-    func getPostTitleDescription(_ post: Post) -> String {
-        return "Title => \(post.title)"
+    func getPostTitleDescription(_ post: Post) throws -> String {
+        throw SomeError.someError
+//        return "Title => \(post.title)"
     }
     
 
@@ -58,6 +64,9 @@ class ViewController: UIViewController {
             .subscribe(
                 onNext: { titleDescription in
                     print(titleDescription)
+                },
+                onError: { error in
+                    print("Oops!")
                 }
             )
         

@@ -1,9 +1,9 @@
 {
   "name": "Microfutures",
   "version": "0.1.0",
-  "summary": "A short description of Microfutures.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/Microfutures",
+  "summary": "Lightweight implementation of Futures that shares a similar subscription interface with RxSwift.",
+  "description": "Lightweight implementation of Futures that shares a similar subscription interface with RxSwift.",
+  "homepage": "https://github.com/fmo91/Microfutures",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "Fernando Ortiz": "ortizfernandomartin@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/Microfutures.git",
+    "git": "https://github.com/fmo91/Microfutures.git",
     "tag": "0.1.0"
   },
   "platforms": {

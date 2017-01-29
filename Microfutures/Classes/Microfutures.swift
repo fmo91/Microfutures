@@ -55,12 +55,23 @@ public struct Future<T> {
 }
 
 extension Future {
-    public func map<U>(_ f: @escaping (T) -> U) -> Future<U> {
+    public func map<U>(_ f: @escaping (T) throws -> U) -> Future<U> {
         return Future<U>(operation: { completion in
             self.then { result in
                 switch result {
-                case .success(let valueBox): completion(Result.success(f(valueBox)))
-                case .failure(let errorBox): completion(Result.failure(errorBox))
+                    
+                case .success(let resultValue):
+                    do {
+                        let transformedValue = try f(resultValue)
+                        completion(Result.success(transformedValue))
+                    } catch let error {
+                        completion(Result.failure(error))
+                    }
+                    
+                    
+                case .failure(let errorBox):
+                    completion(Result.failure(errorBox))
+                    
                 }
             }
         })
@@ -70,8 +81,8 @@ extension Future {
         return Future<U>(operation: { completion in
             self.then { firstFutureResult in
                 switch firstFutureResult {
-                case .success(let valueBox): f(valueBox).then(completion)
-                case .failure(let errorBox): completion(Result.failure(errorBox))
+                case .success(let value): f(value).then(completion)
+                case .failure(let error): completion(Result.failure(error))
                 }
             }
         })
